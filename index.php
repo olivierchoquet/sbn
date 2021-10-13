@@ -24,8 +24,7 @@
 	# Quelle action est demandée ?
 	switch($action) {
 		case 'genesis':
-			require_once('controllers/GenesisController.php');
-			$controller = new GenesisController();
+			conflit
 			break;
 		case 'books':
 			require_once('controllers/BooksController.php');
